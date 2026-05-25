@@ -5,7 +5,7 @@ from authzx.types import (
     BatchEvalItem, BatchEvaluationRequest, BatchEvaluationResponse, BatchOptions,
 )
 
-__version__ = "0.4.0"
+__version__ = "0.4.1"
 
 __all__ = [
     "AuthzX",

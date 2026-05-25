@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "authzx"
-version = "0.4.0"
+version = "0.4.1"
 description = "AuthzX Python SDK — authorization client for AuthzX Cloud and the AuthzX Agent"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -16,8 +16,8 @@ dependencies = ["httpx>=0.25.0"]
 [project.urls]
 Homepage = "https://authzx.com"
 Documentation = "https://docs.authzx.com"
-Repository = "https://github.com/authzx/python-sdk"
-Issues = "https://github.com/authzx/python-sdk/issues"
+Repository = "https://github.com/authzx/authzx-python"
+Issues = "https://github.com/authzx/authzx-python/issues"
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-asyncio", "respx"]
